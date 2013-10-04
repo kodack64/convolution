@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{7c02531d-c7f9-4c82-b5f7-06271cdebe23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{d9d89275-6ca8-478b-aaac-4a346e813083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{07320926-6934-4c6f-8287-f6e159b3dcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{431b97aa-1c9b-4a1d-a58f-b9dc803496a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>{f4851a38-c36a-4eac-8bb5-7226a018aa7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationProperty.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="ArgumentInterpreter.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="PackageManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioAdapter.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioApi.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioGenerator.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAudioApi.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAudioGenerator.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveShell.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="InputAdapter.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputApi.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputLine.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseAdapter.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardAdapter.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="fftw.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="portaudio.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="rfftw.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEffect.h">
+      <Filter>Package</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationProperty.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ArgumentInterpreter.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="PackageManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioAdapter.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAudioApi.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAudioGenerator.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveShell.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="InputAdapter.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputApi.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseAdapter.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardAdapter.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEffect.cpp">
+      <Filter>Package</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
