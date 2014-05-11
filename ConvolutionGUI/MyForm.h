@@ -436,23 +436,22 @@ namespace Project1 {
 			this->Radio_HallTypeKomaba->Checked = true;
 			this->Radio_HallTypeKomaba->Location = System::Drawing::Point(20, 18);
 			this->Radio_HallTypeKomaba->Name = L"Radio_HallTypeKomaba";
-			this->Radio_HallTypeKomaba->Size = System::Drawing::Size(83, 16);
+			this->Radio_HallTypeKomaba->Size = System::Drawing::Size(59, 16);
 			this->Radio_HallTypeKomaba->TabIndex = 1;
 			this->Radio_HallTypeKomaba->TabStop = true;
-			this->Radio_HallTypeKomaba->Text = L"‹³—{11†ŠÙ";
+			this->Radio_HallTypeKomaba->Text = L"‹îêÕ";
 			this->Radio_HallTypeKomaba->UseVisualStyleBackColor = true;
 			this->Radio_HallTypeKomaba->CheckedChanged += gcnew System::EventHandler(this, &MyForm::Radio_HallTypeKomaba_CheckedChanged);
 			// 
 			// Radio_HallTypeHongo
 			// 
 			this->Radio_HallTypeHongo->AutoSize = true;
-			this->Radio_HallTypeHongo->Enabled = false;
 			this->Radio_HallTypeHongo->Location = System::Drawing::Point(20, 38);
 			this->Radio_HallTypeHongo->Name = L"Radio_HallTypeHongo";
-			this->Radio_HallTypeHongo->Size = System::Drawing::Size(65, 16);
+			this->Radio_HallTypeHongo->Size = System::Drawing::Size(59, 16);
 			this->Radio_HallTypeHongo->TabIndex = 3;
 			this->Radio_HallTypeHongo->TabStop = true;
-			this->Radio_HallTypeHongo->Text = L"–@1†ŠÙ";
+			this->Radio_HallTypeHongo->Text = L"ŒÜŒŽÕ";
 			this->Radio_HallTypeHongo->UseVisualStyleBackColor = true;
 			// 
 			// groupBox5
