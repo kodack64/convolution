@@ -33,7 +33,6 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 	delete application;
 
 	printf("Push any key to Exit\n");
-	while(!_kbhit()){
-	}
+	_getch();
 	return 0;
 }
